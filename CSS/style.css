@@ -41,7 +41,7 @@ nav {
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 40%;
+  width: 80%;
 }
 .navlist {
   display: flex;
@@ -240,7 +240,7 @@ nav {
   height: 0;
   /* margin-left: 20%; */
   margin-top: 5%;
-  margin-bottom: 10%;
+  margin-bottom: 2%;
   border-radius: 50%;
   display: flex;
   flex-direction: column;
@@ -270,4 +270,23 @@ nav {
   background-size: cover;
   width: 50%;
   padding-top: 50%;
+}
+
+/* Contact STYLING */
+.contact_page {
+  height: 100vh;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.contact_container {
+  background-color: #dc5203;
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 5%; */
+  justify-content: center;
+  align-items: center;
 }
