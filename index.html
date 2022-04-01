@@ -90,11 +90,6 @@
       <div class="services_container">
         <div class="part" id="part1">
           <div class="part_circle">
-            <!-- <img
-              style="width: 50%"
-              src="./Assets/icons/bagage.png"
-              alt="bagage"
-            /> -->
             <div class="service_icon_1"></div>
           </div>
           <h1>Title 1</h1>
@@ -122,13 +117,20 @@
         </div>
       </div>
     </section>
+
     <section class="contact_page">
       <div class="contact_container">
-        <form action="https://formsubmit.co/eddinea437@gmail.com" method="POST">
-          <input type="text" name="name" required />
-          <input type="email" name="email" required />
-          <button type="submit">Send</button>
-        </form>
+        <div class="contact_form">
+          <form action="mail.php" method="post">
+            <input type="text" name="name" placeholder="Your name.." />
+            <input type="email" name="email" placeholder="Your email.." />
+            <textarea name="message" placeholder="Write something.."></textarea>
+            <input class="send_btn" type="submit" value="Send" />
+          </form>
+        </div>
+        <div class="contact_map">
+          <div class="map_container"></div>
+        </div>
       </div>
     </section>
   </body>
