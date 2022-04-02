@@ -1,0 +1,93 @@
+@font-face {
+  font-family: "Montserat_Bold";
+  src: url("../Assets/fonts/Montserrat/Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Montserat_regular";
+  src: url("../Assets/fonts/Montserrat/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Montserat_medium";
+  src: url("../Assets/fonts/Montserrat/Montserrat-Medium.ttf");
+}
+
+body {
+  font-family: "Montserat_regular", sans-serif;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+/* Services STYLING */
+.services_page {
+  height: 100vh;
+  width: 100%;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.services_container {
+  color: #000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  /* margin-left: 5%; */
+  justify-content: center;
+  align-items: center;
+}
+
+.part {
+  width: 25%;
+  height: 60%;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.part_circle {
+  background-color: #020b49;
+  width: 50%;
+  padding-top: 25%;
+  padding-bottom: 25%;
+  height: 0;
+  /* margin-left: 20%; */
+  margin-top: 5%;
+  margin-bottom: 2%;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_icon_1 {
+  background-image: url("../Assets/icons/bagage.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding-top: 50%;
+}
+
+.service_icon_2 {
+  background-image: url("../Assets/icons/visa.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding-top: 50%;
+}
+
+.service_icon_3 {
+  background-image: url("../Assets/icons/plane.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  padding-top: 50%;
+}
